@@ -23,7 +23,8 @@ from . import models
 #from .database import engine, SessionLocal
 #from .database import engine, get_db
 from .database import engine
-import tkinter
+import tkinter as tk
+#import tkinter
 #import tkinter
 from .routers import post, user, auth, vote
 from .config import settings
@@ -97,7 +98,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Hello World"}
+    return {"message": "Hello World1"}
 
 #@app.get("/sqlalchemy")
 #def test_posts(db: Session = Depends(get_db)):
