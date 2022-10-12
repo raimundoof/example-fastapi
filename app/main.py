@@ -23,7 +23,7 @@ from . import models
 #from .database import engine, SessionLocal
 #from .database import engine, get_db
 from .database import engine
-import _tkinter
+import tkinter
 #import tkinter
 from .routers import post, user, auth, vote
 from .config import settings
